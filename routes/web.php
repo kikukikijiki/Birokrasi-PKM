@@ -10,7 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
+    // return view('homepage');
     return view('welcome');
+});
+
+Route::get('/login', function () {
+    return view('login');
 });
